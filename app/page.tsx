@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { neon } from '@neondatabase/serverless';
+import { Button } from "@shadcn/button";
 
 export default function Page() {
   async function create(formData: FormData) {
@@ -16,6 +17,7 @@ export default function Page() {
       <Image src="/defaultPreview.png" alt="text" width={100} height={100} />
       <input type="text" placeholder="write a comment" name="comment" />
       <button type="submit">Submit</button>
+      <Button>Click me</Button>
     </form>
   );
 }

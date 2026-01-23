@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./app/*"],
+      "@shadcn/*": ["./app/components/ui/*"]
     }
   },
   "include": [
