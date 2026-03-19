@@ -95,7 +95,7 @@ export function LoginForm() {
   const onSubmit = async (data: LoginFormData) => {
     
     try {
-      const response = await fetch('/apis/auth/login', {
+      const response = await fetch('/api/auth/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
